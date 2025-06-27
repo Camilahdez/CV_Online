@@ -1,7 +1,4 @@
 # CV_Online
-Currículum vitae online desarrollado como una página web responsive. Incluye información personal, experiencia laboral, formación, habilidades y proyectos.
-
-# 📄 CV Online - Camila Hdez
 Este proyecto es un currículum vitae interactivo como una página web personal. Está diseñado para mostrar mi experiencia profesional, habilidades, formación académica y proyectos destacados de una manera clara, moderna y accesible desde cualquier dispositivo.
 
 # 🚀 Tecnologías utilizadas:
