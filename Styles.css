@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    color: darkcyan;
+}
+
+h2 {
+    font-size: 16px;
+    color: rgb(14, 78, 78);
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+.contenido {
+    margin:50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    position: fixed;
+    margin-top: 0px;
+    padding: 1rem;
+    width: 100%;
+    align-items: space-between;
+}
+
+nav ul li:hover {
+    background-color: rgb(195, 194, 196);
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+nav ul li {
+    padding:0.5rem;
+   
+} 
+
+nav a{ text-decoration: none;
+    color: rgb(14, 78, 78);
+}
+
+.cabecera {
+    width: 100%;
+
+}
+
+#descripcion {
+    display: inline;
+    align-content: center;
+    text-align: center;
+}
+
+#programas {
+    background-color: rgb(149, 224, 224);
+    padding: 1rem;
+    text-align: center;
+
+}
+
+#software {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    background-color: rgb(149, 224, 224);
+}
+
+.programa {
+    border-radius: 20px;
+    display: inline-block;
+    background-color: white;
+    margin: 1rem;
+
+}
+
+#seccion-contacto {
+    display: flex;
+    background-color: rgb(170, 205, 248);
+    padding: 2rem;
+}
+
+form {
+    width: 50%;
+    margin-left: 1rem;
+
+}
+
+label {
+    display: inline-flex;
+    width: 25%;
+}
+
+input {
+    width: 70%;
+    margin: 0;
+}
+
+iframe {
+    width: 50%;
+    height: 200px;
+    border-radius: 5%;
+}
