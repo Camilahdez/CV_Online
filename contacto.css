@@ -1,0 +1,28 @@
+
+#seccion-contacto {
+    display: flex;
+    background-color: rgb(170, 205, 248);
+    padding: 2rem;
+}
+
+form {
+    width: 50%;
+    margin-left: 1rem;
+
+}
+
+label {
+    display: inline-flex;
+    width: 25%;
+}
+
+input {
+    width: 70%;
+    margin: 0;
+}
+
+iframe {
+    width: 50%;
+    height: 200px;
+    border-radius: 5%;
+}
