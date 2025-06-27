@@ -9,7 +9,8 @@ Git y GitHub para control de versiones
 # 🎯 Características principales:
 Diseño responsive (adaptado a móvil, tablet y escritorio)
 
-# Secciones dinámicas: sobre mí, experiencia, proyectos y contacto
+# Secciones dinámicas: 
+sobre mí, experiencia, proyectos y contacto
 Integración con redes sociales y portafolio en el footer
 
 
