@@ -4,8 +4,21 @@
 }
 
 #contenido {
-    margin: 5em;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+      width: 40%;
 }
+
+.hola {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hola .img {
+    border-radius: 50%;
+} 
 
 #descripcion {
     display: inline;

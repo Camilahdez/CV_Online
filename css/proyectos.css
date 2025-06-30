@@ -1,5 +1,31 @@
+
+.project-list {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+border-color: rgb(160, 160, 160);
+}
+
 .project-card {
     background-color: white;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    border-radius: 10px;
+    padding: 3rem;
+    margin: 2rem;
+    border-color: rgb(250, 249, 249);
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+}
+
+.imagen-proyecto {
+    width: 100%;
+}
+
+button{
+    color: rgb(254, 254, 254);
+    background-color: rgb(17, 129, 94);
+    border-radius: 20px;
+   border: none;
+   padding: 1rem;
+   justify-content: center;
 }
