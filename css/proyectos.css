@@ -1,5 +1,5 @@
 #cabecera_proyectos {
-    background-image: url("../img/Camila Hdez.png");
+    background-image: url("../img/Proyectos.png");
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 5rem;
@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+#cabecera_proyectos h1 {
+    color: white;
+    padding: 1rem;
+}
 
 #project-list {
     display: grid;
@@ -15,7 +19,7 @@
     background-color: white;
     margin: 0;
     border-radius: 6rem;
-    border-color: rgb(160, 160, 160);
+    border-color: var(--neutral);
 }
 
 .project-card {
@@ -43,4 +47,9 @@ button {
     padding: 1rem;
     justify-content: center;
     align-content: center;
+}
+
+.buttonCard {
+    display: flex;
+     justify-content: center;
 }

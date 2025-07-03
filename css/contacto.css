@@ -1,28 +1,68 @@
-
-#seccion-contacto {
+#cabeceraHablemos{
+    background-image: url("../img/hablemos.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5rem;
     display: flex;
-    background-color: rgb(170, 205, 248);
-    padding: 2rem;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
 }
 
+#cabeceraHablemos h1 {
+    color: white;
+    padding: 1rem;
+}
+
+#seccionContacto {
+    background-color: var(--secondary);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+#contenidoContacto {
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+   
+}
 form {
     width: 50%;
     margin-left: 1rem;
-
+    background-color: var(--neutral);
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
 label {
-    display: inline-flex;
-    width: 25%;
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem 0;
+    color:white
+
 }
 
 input {
-    width: 70%;
+    width: 100%;
     margin: 0;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+Fieldset {
+    border: none;
+
+}
+
+legend {
+    font-size: large;
+    color: white;
 }
 
 iframe {
     width: 50%;
-    height: 200px;
-    border-radius: 5%;
+    height: auto;
+    border-radius: 2rem;
 }

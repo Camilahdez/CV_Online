@@ -66,7 +66,17 @@ nav a {
 .cabecera {
     width: 100%;
     height: auto;
+    z-index: 3;
 }
+
+/*PARA CREAR VELO
+.cabecera::before {
+  content: "";
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}*/
 
 footer {
     background-color: black;
@@ -79,7 +89,7 @@ footer {
 }
 
 footer a {
-    padding: 5em;
+    padding: 3em;
     color: white;
 }
 

@@ -89,3 +89,29 @@
 .programa h4 {
     color: var(--secondary);
 }
+
+#formacion {
+    background-color: var(--secondary);
+    align-content: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+#iconoFormacion {
+    align-content: space-between;
+}
+
+#formacion h2 {
+    color: white;
+}
+
+.formacion-card {
+    border-radius: 20px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.formacionTexto {
+    color: white;
+}

@@ -1,3 +1,33 @@
 main {
-    margin: 4rem;
+    margin: 0rem;
+}
+
+#cabeceraExperiencia {
+    background-image: url("../img/Experiencia.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+#cabeceraExperiencia h1 {
+    color: white;
+    padding: 1rem;
+}
+
+
+/* Formacion Experiencia
+*/
+
+#experiencia-texto{
+    padding:1rem
+}
+
+#experiecia-card {
+    display: inline;
+
 }
