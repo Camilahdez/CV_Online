@@ -1,20 +1,32 @@
+#cabecera_proyectos {
+    background-image: url("../img/Camila Hdez.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5rem;
+    align-content: center;
+    text-align: center;
+}
 
-.project-list {
+
+#project-list {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
-border-color: rgb(160, 160, 160);
+    background-color: white;
+    margin: 0;
+    border-radius: 6rem;
+    border-color: rgb(160, 160, 160);
 }
 
 .project-card {
     background-color: white;
     display: grid;
     border-radius: 10px;
-    padding: 3rem;
-    margin: 2rem;
+    padding: 1rem;
+    margin: 1rem;
     border-color: rgb(250, 249, 249);
     box-shadow: 0 0 10px rgb(160, 160, 160);
-    background-color: 0 0 10px rgb(235, 235, 235);
+    background-color: 0 0 10px var(--neutral);
     justify-content: center;
 }
 
@@ -23,11 +35,12 @@ border-color: rgb(160, 160, 160);
     border-radius: 10px;
 }
 
-button{
-    color: rgb(254, 254, 254);
-    background-color: rgb(17, 129, 94);
+button {
+    color:white;
+    background-color: var(--secondary);
     border-radius: 20px;
-   border: none;
-   padding: 1rem;
-   justify-content: center;
+    border: none;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
 }
