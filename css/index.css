@@ -42,7 +42,7 @@
 
 #descripcionTexto {
     text-align: left;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .seccion {
@@ -79,7 +79,7 @@
     display: inline-block;
     margin: 1rem;
     background-color: white;
-    
+
 }
 
 .programa img {
@@ -115,3 +115,42 @@
 .formacionTexto {
     color: white;
 }
+
+
+
+@media (max-width:768px) {
+    #software {
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+
+    #contenido {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+
+    }
+
+    #descripcion img {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media (Max-width:600px) {
+    #descripcion {
+        display: block;
+
+    }
+
+
+
+}
+
+@media (max-width:475px) {
+    #software {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+}
+

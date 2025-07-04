@@ -2,9 +2,9 @@
     background-image: url("../img/Proyectos.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 5rem;
     align-content: center;
     text-align: center;
+    height: 300px ;
 }
 
 #cabecera_proyectos h1 {
@@ -52,4 +52,28 @@ button {
 .buttonCard {
     display: flex;
      justify-content: center;
+}
+
+@media (max-width:700px) {
+    #project-list {
+    grid-template-columns: 40% 40%;
+}
+}
+
+@media (max-width:600px) {
+    #cabecera_proyectos {
+    height: 200px ;
+}
+}
+
+@media (max-width:500px) {
+    #project-list {
+    grid-template-columns: 70%;
+}
+}
+
+@media (max-width:300px) {
+     #cabecera_proyectos {
+    height: 150px ;
+}
 }
